@@ -21,8 +21,7 @@
 // http://www.cs.unibo.it/~lpadovan/PET/, or send a mail to
 // <lpadovan@cs.unibo.it>
 
-#ifndef __pet_hh__
-#define __pet_hh__
+#pragma once
 
 #include "pet_terms.hh"
 #include "pet_simple_paths.hh"
@@ -161,4 +160,3 @@ pet::Path<pet::PlusPath<P> >
 operator+(const pet::Path<P>& p)
 { return pet::plus(p); }
 
-#endif // __pet_hh__
