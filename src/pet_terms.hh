@@ -21,11 +21,9 @@
 // http://www.cs.unibo.it/~lpadovan/PET/, or send a mail to
 // <lpadovan@cs.unibo.it>
 
-#ifndef __pet_terms_hh__
-#define __pet_terms_hh__
+#pragma once
 
 #include <set>
-
 #include "pet_traits.hh"
 
 namespace pet {
@@ -343,5 +341,3 @@ namespace pet {
 #endif
 
 }
-
-#endif // __pet_terms_hh__

@@ -21,8 +21,7 @@
 // http://www.cs.unibo.it/~lpadovan/PET/, or send a mail to
 // <lpadovan@cs.unibo.it>
 
-#ifndef __pet_traits_hh__
-#define __pet_traits_hh__
+#pragma once
 
 namespace pet {
 	
@@ -51,6 +50,3 @@ namespace pet {
   };
 
 }
-
-#endif // __pet_traits_hh__
-

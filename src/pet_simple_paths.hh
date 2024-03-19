@@ -21,8 +21,8 @@
 // http://www.cs.unibo.it/~lpadovan/PET/, or send a mail to
 // <lpadovan@cs.unibo.it>
 
-#ifndef __pet_simple_paths_hh__
-#define __pet_simple_paths_hh__
+
+#pragma once
 
 #include "pet_terms.hh"
 
@@ -181,4 +181,3 @@ namespace pet {
 
 }
 
-#endif // __pet_simple_paths_hh__

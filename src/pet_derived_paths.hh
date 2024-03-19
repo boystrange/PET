@@ -21,8 +21,7 @@
 // http://www.cs.unibo.it/~lpadovan/PET/, or send a mail to
 // <lpadovan@cs.unibo.it>
 
-#ifndef __pet_derived_paths_hh__
-#define __pet_derived_paths_hh__
+#pragma once
 
 #include "pet_simple_paths.hh"
 
@@ -62,5 +61,3 @@ namespace pet {
   { RepPath(const P& _p = P()) : RangePath<P, n, n>(_p) { } };
 
 }
-
-#endif // __pet_derived_paths_hh__
